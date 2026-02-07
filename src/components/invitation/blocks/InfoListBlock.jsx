@@ -1,4 +1,8 @@
 export default function InfoListBlock({ block }) {
+  const actionButtons = Array.isArray(block.actions) && block.actions.length > 0
+    ? block.actions
+    : ["Navigate to the venue", "Add to Calendar"];
+
   return (
     <section className="invitation-block block-info-list">
       <h2 className="reveal-text reveal-1">{block.heading}</h2>
@@ -20,6 +24,18 @@ export default function InfoListBlock({ block }) {
           </li>
         ))}
       </ul>
+      <div className="event-actions">
+        {actionButtons.map((label, index) => (
+          <button
+            key={label}
+            type="button"
+            className="event-action-btn reveal-text"
+            style={{ animationDelay: `${1100 + index * 240}ms` }}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
     </section>
   );
 }

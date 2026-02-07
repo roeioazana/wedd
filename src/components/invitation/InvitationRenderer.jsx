@@ -1,11 +1,13 @@
 import { useEffect, useRef } from "react";
 import HeroBlock from "./blocks/HeroBlock";
+import OurStoryBlock from "./blocks/OurStoryBlock";
 import TextBlock from "./blocks/TextBlock";
 import InfoListBlock from "./blocks/InfoListBlock";
 import CtaBlock from "./blocks/CtaBlock";
 
 const blockComponents = {
   hero: HeroBlock,
+  ourStory: OurStoryBlock,
   text: TextBlock,
   infoList: InfoListBlock,
   cta: CtaBlock

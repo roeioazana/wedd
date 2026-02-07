@@ -51,9 +51,17 @@
       ]
     },
     {
+      "id": "story-1",
+      "type": "ourStory",
+      "order": 2,
+      "visible": true,
+      "heading": "Our Story",
+      "body": "We met by chance on a quiet evening and discovered that the smallest moments could hold the strongest meaning. Through late-night talks, weekend walks, and all the ordinary days in between, we built something steady, kind, and true. This celebration is our way of honoring every step that brought us here, and we are deeply grateful to share this chapter with the people who have loved and supported us along the way."
+    },
+    {
       "id": "text-1",
       "type": "text",
-      "order": 2,
+      "order": 3,
       "visible": true,
       "heading": "A small note",
       "body": "We are keeping this event intimate and meaningful. Your presence is the best gift."
@@ -61,9 +69,13 @@
     {
       "id": "info-1",
       "type": "infoList",
-      "order": 3,
+      "order": 4,
       "visible": true,
       "heading": "Event details",
+      "actions": [
+        "Navigate to the venue",
+        "Add to Calendar"
+      ],
       "items": [
         {
           "label": "Time",
@@ -82,7 +94,7 @@
     {
       "id": "cta-1",
       "type": "cta",
-      "order": 4,
+      "order": 5,
       "visible": true,
       "label": "RSVP by May 20",
       "href": "https://example.com/rsvp/123"
