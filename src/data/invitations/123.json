@@ -1,0 +1,67 @@
+{
+  "id": "123",
+  "published": true,
+  "updatedAt": "2026-02-07T00:00:00Z",
+  "company": {
+    "name": "Wedd Co.",
+    "tagline": "Simple mobile invitations"
+  },
+  "blocks": [
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "order": 1,
+      "visible": true,
+      "title": "Lina & Adam",
+      "subtitle": "You are invited to celebrate with us",
+      "date": "Saturday, June 20, 2026",
+      "filmImages": [
+        { "src": "/images/couples/couple-01.svg", "alt": "Couple portrait 1" },
+        { "src": "/images/couples/couple-02.svg", "alt": "Couple portrait 2" },
+        { "src": "/images/couples/couple-03.svg", "alt": "Couple portrait 3" },
+        { "src": "/images/couples/couple-04.svg", "alt": "Couple portrait 4" },
+        { "src": "/images/couples/couple-05.svg", "alt": "Couple portrait 5" },
+        { "src": "/images/couples/couple-06.svg", "alt": "Couple portrait 6" },
+        { "src": "/images/couples/couple-07.svg", "alt": "Couple portrait 7" },
+        { "src": "/images/couples/couple-08.svg", "alt": "Couple portrait 8" }
+      ]
+    },
+    {
+      "id": "text-1",
+      "type": "text",
+      "order": 2,
+      "visible": true,
+      "heading": "A small note",
+      "body": "We are keeping this event intimate and meaningful. Your presence is the best gift."
+    },
+    {
+      "id": "info-1",
+      "type": "infoList",
+      "order": 3,
+      "visible": true,
+      "heading": "Event details",
+      "items": [
+        {
+          "label": "Time",
+          "value": "6:30 PM"
+        },
+        {
+          "label": "Venue",
+          "value": "Sunset Garden Hall"
+        },
+        {
+          "label": "Dress code",
+          "value": "Elegant casual"
+        }
+      ]
+    },
+    {
+      "id": "cta-1",
+      "type": "cta",
+      "order": 4,
+      "visible": true,
+      "label": "RSVP by May 20",
+      "href": "https://example.com/rsvp/123"
+    }
+  ]
+}
