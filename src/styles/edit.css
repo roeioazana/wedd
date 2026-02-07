@@ -1,0 +1,194 @@
+.edit-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background: #f2f5fa;
+}
+
+.edit-sidebar {
+  background: #ffffff;
+  border: 1px solid #d4dce8;
+  border-radius: 14px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.edit-sidebar h1 {
+  font-size: 1.3rem;
+}
+
+.edit-sidebar p {
+  color: #4a5a71;
+}
+
+.preview-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #1f4fb4;
+}
+
+.edit-content {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.edit-card {
+  background: #ffffff;
+  border: 1px solid #d4dce8;
+  border-radius: 14px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.edit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.edit-field {
+  display: grid;
+  gap: 6px;
+}
+
+.edit-field span {
+  font-size: 0.82rem;
+  color: #4e5d74;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.edit-field input,
+.edit-field select,
+.edit-field textarea,
+.add-block-row select,
+.sub-row input,
+.block-actions button,
+.add-block-row button,
+.sub-list button,
+.save-row button,
+.event-action-btn {
+  font: inherit;
+}
+
+.edit-field input,
+.edit-field select,
+.edit-field textarea,
+.add-block-row select,
+.sub-row input {
+  border: 1px solid #c7d2e1;
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: #fff;
+}
+
+.edit-field textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.add-block-row {
+  display: flex;
+  gap: 10px;
+}
+
+.add-block-row button,
+.sub-list button,
+.block-actions button,
+.save-row button {
+  border: 1px solid #8e9ab0;
+  background: #ffffff;
+  color: #344157;
+  border-radius: 999px;
+  padding: 8px 14px;
+}
+
+.block-list {
+  display: grid;
+  gap: 12px;
+}
+
+.block-editor {
+  border: 1px solid #d4dce8;
+  border-radius: 12px;
+  padding: 12px;
+  display: grid;
+  gap: 12px;
+  background: #fafcff;
+}
+
+.block-editor > header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.block-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.sub-list {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px dashed #cad3e1;
+  border-radius: 10px;
+}
+
+.sub-list p {
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #51627a;
+}
+
+.sub-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.save-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save-row button {
+  background: #1f4fb4;
+  border-color: #1f4fb4;
+  color: #ffffff;
+  padding: 10px 18px;
+}
+
+@media (max-width: 980px) {
+  .edit-page {
+    grid-template-columns: 1fr;
+  }
+
+  .edit-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .edit-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sub-row {
+    grid-template-columns: 1fr;
+  }
+}

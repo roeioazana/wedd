@@ -5,6 +5,7 @@ import App from "./app/App";
 import "./styles/base.css";
 import "./styles/home.css";
 import "./styles/invitation.css";
+import "./styles/edit.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
