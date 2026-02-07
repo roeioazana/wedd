@@ -12,18 +12,42 @@
       "type": "hero",
       "order": 1,
       "visible": true,
-      "title": "Lina & Adam",
+      "title": "Din & Linoy",
       "subtitle": "You are invited to celebrate with us",
       "date": "Saturday, June 20, 2026",
       "filmImages": [
-        { "src": "/images/couples/couple-01.svg", "alt": "Couple portrait 1" },
-        { "src": "/images/couples/couple-02.svg", "alt": "Couple portrait 2" },
-        { "src": "/images/couples/couple-03.svg", "alt": "Couple portrait 3" },
-        { "src": "/images/couples/couple-04.svg", "alt": "Couple portrait 4" },
-        { "src": "/images/couples/couple-05.svg", "alt": "Couple portrait 5" },
-        { "src": "/images/couples/couple-06.svg", "alt": "Couple portrait 6" },
-        { "src": "/images/couples/couple-07.svg", "alt": "Couple portrait 7" },
-        { "src": "/images/couples/couple-08.svg", "alt": "Couple portrait 8" }
+        {
+          "src": "/images/couples/couple-01.svg",
+          "alt": "Couple portrait 1"
+        },
+        {
+          "src": "/images/couples/couple-02.svg",
+          "alt": "Couple portrait 2"
+        },
+        {
+          "src": "/images/couples/couple-03.svg",
+          "alt": "Couple portrait 3"
+        },
+        {
+          "src": "/images/couples/couple-04.svg",
+          "alt": "Couple portrait 4"
+        },
+        {
+          "src": "/images/couples/couple-05.svg",
+          "alt": "Couple portrait 5"
+        },
+        {
+          "src": "/images/couples/couple-06.svg",
+          "alt": "Couple portrait 6"
+        },
+        {
+          "src": "/images/couples/couple-07.svg",
+          "alt": "Couple portrait 7"
+        },
+        {
+          "src": "/images/couples/couple-08.svg",
+          "alt": "Couple portrait 8"
+        }
       ]
     },
     {
