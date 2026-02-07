@@ -1,3 +1,21 @@
+function resolveAssetSrc(src = "") {
+  if (!src) {
+    return src;
+  }
+
+  if (/^(?:[a-z]+:)?\/\//i.test(src) || src.startsWith("data:") || src.startsWith("blob:")) {
+    return src;
+  }
+
+  const base = import.meta.env.BASE_URL || "/";
+
+  if (!src.startsWith("/")) {
+    return `${base}${src}`;
+  }
+
+  return `${base.replace(/\/$/, "")}${src}`;
+}
+
 export default function HeroBlock({ block }) {
   const filmImages = Array.isArray(block.filmImages) ? block.filmImages : [];
   const loopImages = [...filmImages, ...filmImages];
@@ -12,7 +30,7 @@ export default function HeroBlock({ block }) {
           <div className="hero-film-track">
             {loopImages.map((image, index) => (
               <figure className="hero-film-frame" key={`${image.src}-${index}`}>
-                <img src={image.src} alt={image.alt || "Couple photo"} loading="lazy" />
+                <img src={resolveAssetSrc(image.src)} alt={image.alt || "Couple photo"} loading="lazy" />
               </figure>
             ))}
           </div>

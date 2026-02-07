@@ -12,12 +12,12 @@
       "type": "hero",
       "order": 1,
       "visible": true,
-      "title": "Din & Linoy",
+      "title": "Roei & Tamari",
       "subtitle": "You are invited to celebrate with us",
       "date": "Saturday, June 20, 2026",
       "filmImages": [
         {
-          "src": "/images/couples/couple-01.svg",
+          "src": "/images/couples/couple-01.webp",
           "alt": "Couple portrait 1"
         },
         {
